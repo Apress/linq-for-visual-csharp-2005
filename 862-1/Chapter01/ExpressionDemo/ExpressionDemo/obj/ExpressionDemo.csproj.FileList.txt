@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ExpressionDemo.exe
+bin\Debug\ExpressionDemo.pdb
+bin\Debug\System.Data.DLinq.dll
+bin\Debug\System.Data.Extensions.dll
+bin\Debug\System.Query.dll
+bin\Debug\System.Xml.XLinq.dll
+obj\Debug\ExpressionDemo.exe
+obj\Debug\ExpressionDemo.pdb

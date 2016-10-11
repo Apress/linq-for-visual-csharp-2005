@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="1" xmlns:om="http://Microsoft.VisualStudio.Modeling">
+    <om:SubStore SubstoreType="Microsoft.VisualStudio.Modeling.Core" />
+    <om:SubStore SubstoreType="Microsoft.VisualStudio.Modeling.Diagrams.CoreDesignSurface" />
+    <om:SubStore SubstoreType="Microsoft.VisualStudio.Modeling.Utilities.UtilitiesModel" />
+    <om:SubStore SubstoreType="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqObjects" />
+    <om:SubStore SubstoreType="Microsoft.VisualStudio.DLinqDesigner.Designer.DLinqObjectsDesigner" />
+    <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DataContext" Id="d0e13de2-6c03-4804-9e6f-10a944039b63">
+        <om:Property Name="Modifier" Value="Public" />
+        <om:Property Name="Database" Value="" />
+        <om:Property Name="Name" Value="PeopleDataContext" />
+        <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="a3550f6e-d8f9-4441-a163-7a0770dfec5f">
+            <om:Role Name="Subject" Id="d0e13de2-6c03-4804-9e6f-10a944039b63" />
+            <om:Role Name="Presentation" Id="69751eef-fb47-41f3-ac8d-fae902d6cde9" />
+        </om:ElementLink>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignConnection" Id="f53124bf-8bc9-4277-913b-6792c12de2e6" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DataContextHasDesignConnection">
+            <om:Property Name="Provider" Value="" />
+            <om:Property Name="ConnectionString" Value="" />
+            <om:Property Name="IsSettingsProperty" Value="True" />
+            <om:Property Name="SettingsObjectName" Value="Settings" />
+            <om:Property Name="SettingsPropertyName" Value="DataConnection" />
+            <om:Property Name="PropertyReference" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAElTeXN0ZW0sIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAuU3lzdGVtLkNvZGVEb20uQ29kZVByb3BlcnR5UmVmZXJlbmNlRXhwcmVzc2lvbgQAAAAMdGFyZ2V0T2JqZWN0DHByb3BlcnR5TmFtZQpwYXJhbWV0ZXJzE0NvZGVPYmplY3QrdXNlckRhdGEEAQQDLlN5c3RlbS5Db2RlRG9tLkNvZGVQcm9wZXJ0eVJlZmVyZW5jZUV4cHJlc3Npb24CAAAAJ1N5c3RlbS5Db2RlRG9tLkNvZGVFeHByZXNzaW9uQ29sbGVjdGlvbgIAAAAeU3lzdGVtLkNvbGxlY3Rpb25zLklEaWN0aW9uYXJ5AgAAAAkDAAAABgQAAAAORGF0YUNvbm5lY3Rpb24JBQAAAAoBAwAAAAEAAAAJBgAAAAYHAAAAB0RlZmF1bHQJCAAAAAoFBQAAACdTeXN0ZW0uQ29kZURvbS5Db2RlRXhwcmVzc2lvbkNvbGxlY3Rpb24BAAAAE0NvbGxlY3Rpb25CYXNlK2xpc3QDHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAACQkAAAAFBgAAACpTeXN0ZW0uQ29kZURvbS5Db2RlVHlwZVJlZmVyZW5jZUV4cHJlc3Npb24CAAAABHR5cGUTQ29kZU9iamVjdCt1c2VyRGF0YQQDIFN5c3RlbS5Db2RlRG9tLkNvZGVUeXBlUmVmZXJlbmNlAgAAAB5TeXN0ZW0uQ29sbGVjdGlvbnMuSURpY3Rpb25hcnkCAAAACQoAAAAKAQgAAAAFAAAACQsAAAAECQAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24FAAAICAkMAAAAAAAAAAAAAAAFCgAAACBTeXN0ZW0uQ29kZURvbS5Db2RlVHlwZVJlZmVyZW5jZQgAAAAIYmFzZVR5cGULaXNJbnRlcmZhY2UJYXJyYXlSYW5rEGFycmF5RWxlbWVudFR5cGUNdHlwZUFyZ3VtZW50cxByZWZlcmVuY2VPcHRpb25zCm5lZWRzRml4dXATQ29kZU9iamVjdCt1c2VyRGF0YQEAAAQEBAADAQggU3lzdGVtLkNvZGVEb20uQ29kZVR5cGVSZWZlcmVuY2UCAAAAKlN5c3RlbS5Db2RlRG9tLkNvZGVUeXBlUmVmZXJlbmNlQ29sbGVjdGlvbgIAAAAnU3lzdGVtLkNvZGVEb20uQ29kZVR5cGVSZWZlcmVuY2VPcHRpb25zAgAAAAEeU3lzdGVtLkNvbGxlY3Rpb25zLklEaWN0aW9uYXJ5AgAAAAYNAAAAKkxJTlF0b1NRTERMaW5xRGVzaWduZXIuUHJvcGVydGllcy5TZXR0aW5ncwAAAAAACgoF8v///ydTeXN0ZW0uQ29kZURvbS5Db2RlVHlwZVJlZmVyZW5jZU9wdGlvbnMBAAAAB3ZhbHVlX18ACAIAAAABAAAAAQoBCwAAAAkAAAAJDAAAAAAAAAAAAAAAEAwAAAAAAAAACw==" />
+            <om:Property Name="Name" Value="" />
+        </om:ModelElement>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClass" Id="97a16c4b-fe74-49e3-b6a5-5d254e059607" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.ModelHasClasses">
+            <om:Property Name="TableName" Value="Role" />
+            <om:Property Name="DiscriminatorValue" Value="" />
+            <om:Property Name="Name" Value="Role" />
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="ec66c063-0ea5-4d70-8f59-9a5659982a95">
+                <om:Role Name="Subject" Id="97a16c4b-fe74-49e3-b6a5-5d254e059607" />
+                <om:Role Name="Presentation" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.Association" Id="99ce5ded-cd9a-4bf3-9af4-1bb009f0e7bd">
+                <om:Role Name="Parent" Id="97a16c4b-fe74-49e3-b6a5-5d254e059607" />
+                <om:Role Name="Child" Id="c9717955-b13d-4439-981f-11cf3c543413" />
+            </om:ElementLink>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="93df1f7f-61b0-4674-85f4-c933158df9ef" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="eb29405d-48ab-44b6-aa67-87df1b6bfe0e" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="6cf7f66a-8132-40e7-9e39-b6367b8f8890" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="8f05b37a-7b79-44f3-bf03-d16e2f33895e" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="ID" />
+                <om:Property Name="IsId" Value="True" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="int" />
+                <om:Property Name="Autogenerated" Value="True" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAAMU3lzdGVtLkludDMyBAAAAAYDAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQs=" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="ID" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="56129981-711e-43d8-91fc-2a23aaffe246" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="RoleDescription" />
+                <om:Property Name="IsId" Value="False" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="nvarchar" />
+                <om:Property Name="Autogenerated" Value="False" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAANU3lzdGVtLlN0cmluZwQAAAAGAwAAAEttc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkL" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="RoleDescription" />
+            </om:ModelElement>
+        </om:ModelElement>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClass" Id="c9717955-b13d-4439-981f-11cf3c543413" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.ModelHasClasses">
+            <om:Property Name="TableName" Value="Person" />
+            <om:Property Name="DiscriminatorValue" Value="" />
+            <om:Property Name="Name" Value="Person" />
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="4c1c0e61-823f-421d-b6c8-b029db0aa57c">
+                <om:Role Name="Subject" Id="c9717955-b13d-4439-981f-11cf3c543413" />
+                <om:Role Name="Presentation" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.Association" Id="99ce5ded-cd9a-4bf3-9af4-1bb009f0e7bd">
+                <om:Role Name="Child" Id="c9717955-b13d-4439-981f-11cf3c543413" />
+                <om:Role Name="Parent" Id="97a16c4b-fe74-49e3-b6a5-5d254e059607" />
+            </om:ElementLink>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="466ddc3b-a48b-472a-9bcc-fb60704c3a13" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="a07c6bae-5355-41d9-90bd-fb48192deb26" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DesignCommand" Id="b67db539-aa4c-4480-a4bb-bf677ef6b0fe" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasUpdateCommands">
+                <om:Property Name="CommandText" Value="" />
+                <om:Property Name="CommandType" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAE5TeXN0ZW0uRGF0YSwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABdTeXN0ZW0uRGF0YS5Db21tYW5kVHlwZQEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL" />
+                <om:Property Name="Name" Value="" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="304ea56c-348c-4542-a355-8651f5d6d515" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="ID" />
+                <om:Property Name="IsId" Value="True" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="int" />
+                <om:Property Name="Autogenerated" Value="True" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAAMU3lzdGVtLkludDMyBAAAAAYDAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQs=" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="ID" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="89c0eb49-6f20-422d-95ab-f6d8131cee6c" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="IDRole" />
+                <om:Property Name="IsId" Value="False" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="int" />
+                <om:Property Name="Autogenerated" Value="False" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAAMU3lzdGVtLkludDMyBAAAAAYDAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQs=" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="IDRole" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="949e3e09-1565-4783-9f47-3c3029bd74b0" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="LastName" />
+                <om:Property Name="IsId" Value="False" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="nvarchar" />
+                <om:Property Name="Autogenerated" Value="False" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAANU3lzdGVtLlN0cmluZwQAAAAGAwAAAEttc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkL" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="LastName" />
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqProperty" Id="f46aa32e-4d53-422c-b779-6171ef59436e" ParentLink="Microsoft.VisualStudio.DLinqDesigner.DomainModel.DLinqClassHasDLinqProperty">
+                <om:Property Name="ColumnName" Value="FirstName" />
+                <om:Property Name="IsId" Value="False" />
+                <om:Property Name="Nullable" Value="False" />
+                <om:Property Name="ServerType" Value="nvarchar" />
+                <om:Property Name="Autogenerated" Value="False" />
+                <om:Property Name="IsVersion" Value="False" />
+                <om:Property Name="PropertyType" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAB9TeXN0ZW0uVW5pdHlTZXJpYWxpemF0aW9uSG9sZGVyAwAAAAREYXRhCVVuaXR5VHlwZQxBc3NlbWJseU5hbWUBAAEIBgIAAAANU3lzdGVtLlN0cmluZwQAAAAGAwAAAEttc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkL" />
+                <om:Property Name="ReadOnly" Value="False" />
+                <om:Property Name="Name" Value="FirstName" />
+            </om:ModelElement>
+        </om:ModelElement>
+    </om:ModelElement>
+    <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.DomainModel.Association" Id="99ce5ded-cd9a-4bf3-9af4-1bb009f0e7bd">
+        <om:Property Name="ThisKey" Value="ID" />
+        <om:Property Name="OtherKey" Value="IDRole" />
+        <om:Property Name="Name" Value="Persons" />
+        <om:Property Name="Unique" Value="False" />
+        <om:Property Name="RelationName" Value="FK_Person_Role" />
+        <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="75287319-f868-44e7-bcb1-71ea9014499a">
+            <om:Role Name="Subject" Id="99ce5ded-cd9a-4bf3-9af4-1bb009f0e7bd" />
+            <om:Role Name="Presentation" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+        </om:ElementLink>
+    </om:ModelElement>
+    <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.Designer.DLinqObjectsDiagram" Id="69751eef-fb47-41f3-ac8d-fae902d6cde9">
+        <om:Property Name="IsCompleteView" Value="False" />
+        <om:Property Name="DiagramId" Value="e91fd973-a4d3-4d37-8831-4804d5187318" />
+        <om:Property Name="Name" Value="" />
+        <om:Property Name="BaseFontName" Value="Tahoma" />
+        <om:Property Name="BaseFontSize" Value="0.11458333581686" />
+        <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+        <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJkAAAAAAAAAhQAs=" />
+        <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="a3550f6e-d8f9-4441-a163-7a0770dfec5f">
+            <om:Role Name="Presentation" Id="69751eef-fb47-41f3-ac8d-fae902d6cde9" />
+            <om:Role Name="Subject" Id="d0e13de2-6c03-4804-9e6f-10a944039b63" />
+        </om:ElementLink>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.Designer.ExampleShape" Id="f6062bf8-6692-467a-98ad-63d53f56463d" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeContainsNestedChildShapes">
+            <om:Property Name="FillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABmAAEACw==" />
+            <om:Property Name="OutlineColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAAAjAAEACw==" />
+            <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+            <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAAAAAAAAADgPwAAAAAAAOA/AAAAAAAAAEBLfrHk14nxPws=" />
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="ec66c063-0ea5-4d70-8f59-9a5659982a95">
+                <om:Role Name="Presentation" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                <om:Role Name="Subject" Id="97a16c4b-fe74-49e3-b6a5-5d254e059607" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="5e84ec3c-6867-4072-9d39-7fe47b443d53">
+                <om:Role Name="Parent" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                <om:Role Name="Decorators" Id="c3e51e7b-8067-4df5-b587-841a0e928622" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="a3073dca-9421-4fd8-84b0-9cb657531b7a">
+                <om:Role Name="Parent" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                <om:Role Name="Decorators" Id="56791d62-9042-4d6e-a3ae-c00857ef0c1c" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Diagrams.LinkConnectsToNode" Id="119512fc-dddd-4e10-8e73-db6f204a3896">
+                <om:Role Name="Nodes" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                <om:Role Name="Link" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+            </om:ElementLink>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.TextShapeDecorator" Id="c3e51e7b-8067-4df5-b587-841a0e928622" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeHasRelativeChildShapes">
+                <om:Property Name="Content" Value="Role" />
+                <om:Property Name="Position" Value="Center" />
+                <om:Property Name="Name" Value="Name" />
+                <om:Property Name="Visibility" Value="True" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAAAAAAAAED1PzMzM4sIwuQ/AAAAAAAA1j8AAABAVYnDPws=" />
+                <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="5e84ec3c-6867-4072-9d39-7fe47b443d53">
+                    <om:Role Name="Decorators" Id="c3e51e7b-8067-4df5-b587-841a0e928622" />
+                    <om:Role Name="Parent" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                </om:ElementLink>
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.ExpandCollapseDecorator" Id="56791d62-9042-4d6e-a3ae-c00857ef0c1c" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeHasRelativeChildShapes">
+                <om:Property Name="Position" Value="InnerTopRight" />
+                <om:Property Name="Name" Value="ExpandCollapse" />
+                <om:Property Name="Visibility" Value="True" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAACkcL3Xo3ACQHE9CtejcOE/AAAAKDMzwz8AAAAoMzPDPws=" />
+                <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="a3073dca-9421-4fd8-84b0-9cb657531b7a">
+                    <om:Role Name="Decorators" Id="56791d62-9042-4d6e-a3ae-c00857ef0c1c" />
+                    <om:Role Name="Parent" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+                </om:ElementLink>
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.ListCompartment" Id="d50be9ab-639e-4e98-998d-6c593d659dd5" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeContainsNestedChildShapes">
+                <om:Property Name="Name" Value="DLinqPropertiesCompartment" />
+                <om:Property Name="Title" Value="Properties" />
+                <om:Property Name="TitleVisibility" Value="True" />
+                <om:Property Name="TitleFillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABfAAEACw==" />
+                <om:Property Name="CompartmentFillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAACkAAEACw==" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAB7FK5H4XrgP7gehetRuO4/hutRuB6F/z+qqqqqKijhPws=" />
+            </om:ModelElement>
+        </om:ModelElement>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.Designer.ExampleShape" Id="43390ed4-a394-4c52-a650-0d5d80daee45" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeContainsNestedChildShapes">
+            <om:Property Name="FillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABmAAEACw==" />
+            <om:Property Name="OutlineColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAAAjAAEACw==" />
+            <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+            <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAAAAAAAAAD0PwAAAAAAAApAAAAAAAAAAECi0wY6Lcz2Pws=" />
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="4c1c0e61-823f-421d-b6c8-b029db0aa57c">
+                <om:Role Name="Presentation" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                <om:Role Name="Subject" Id="c9717955-b13d-4439-981f-11cf3c543413" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="5656e966-8b97-4f26-85c8-4ca2549269c2">
+                <om:Role Name="Parent" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                <om:Role Name="Decorators" Id="eadabf4c-9972-40bb-8b76-814352197fec" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="1728220d-0a02-45e5-8670-f0d4f2181fb1">
+                <om:Role Name="Parent" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                <om:Role Name="Decorators" Id="fef73ed8-eddc-4c15-b214-f8a2fcc2ac92" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Diagrams.LinkConnectsToNode" Id="b92182d3-c64d-4116-a155-d8ecfcd472ae">
+                <om:Role Name="Nodes" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                <om:Role Name="Link" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+            </om:ElementLink>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.TextShapeDecorator" Id="eadabf4c-9972-40bb-8b76-814352197fec" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeHasRelativeChildShapes">
+                <om:Property Name="Content" Value="Person" />
+                <om:Property Name="Position" Value="Center" />
+                <om:Property Name="Name" Value="Name" />
+                <om:Property Name="Visibility" Value="True" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAAAAADmPHAAQM3MzCKCMAtAAAAAoDH82D8AAABAVYnDPws=" />
+                <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="5656e966-8b97-4f26-85c8-4ca2549269c2">
+                    <om:Role Name="Decorators" Id="eadabf4c-9972-40bb-8b76-814352197fec" />
+                    <om:Role Name="Parent" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                </om:ElementLink>
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.ExpandCollapseDecorator" Id="fef73ed8-eddc-4c15-b214-f8a2fcc2ac92" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeHasRelativeChildShapes">
+                <om:Property Name="Position" Value="InnerTopRight" />
+                <om:Property Name="Name" Value="ExpandCollapse" />
+                <om:Property Name="Visibility" Value="True" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAACkcL3Xo3AIQFyPwvUoXApAAAAAKDMzwz8AAAAoMzPDPws=" />
+                <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ShapeHasDecorators" Id="1728220d-0a02-45e5-8670-f0d4f2181fb1">
+                    <om:Role Name="Decorators" Id="fef73ed8-eddc-4c15-b214-f8a2fcc2ac92" />
+                    <om:Role Name="Parent" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+                </om:ElementLink>
+            </om:ModelElement>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.ListCompartment" Id="a9b664d5-1dd7-4f47-ace3-5bd86cc1555a" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeContainsNestedChildShapes">
+                <om:Property Name="Name" Value="DLinqPropertiesCompartment" />
+                <om:Property Name="Title" Value="Properties" />
+                <om:Property Name="TitleVisibility" Value="True" />
+                <om:Property Name="TitleFillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABfAAEACw==" />
+                <om:Property Name="CompartmentFillColor" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAACkAAEACw==" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAA+CtejcD30P65H4XoUrg1AhutRuB6F/z9WVVVV1azrPws=" />
+            </om:ModelElement>
+        </om:ModelElement>
+        <om:ModelElement Type="Microsoft.VisualStudio.DLinqDesigner.Designer.AssociationConnector" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeContainsNestedChildShapes">
+            <om:Property Name="Color" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAAAjAAEACw==" />
+            <om:Property Name="DashStyle" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACJTeXN0ZW0uRHJhd2luZy5EcmF3aW5nMkQuRGFzaFN0eWxlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAs=" />
+            <om:Property Name="SourceArrowStyle" Value="EmptyArrow" />
+            <om:Property Name="TargetArrowStyle" Value="EmptyArrow" />
+            <om:Property Name="FixedFrom" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAHtNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcy5HcmFwaE9iamVjdCwgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAEBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkdyYXBoT2JqZWN0LlZHRml4ZWRDb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=" />
+            <om:Property Name="FixedTo" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAHtNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcy5HcmFwaE9iamVjdCwgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAEBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkdyYXBoT2JqZWN0LlZHRml4ZWRDb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=" />
+            <om:Property Name="EdgePoints" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADxNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkVkZ2VQb2ludENvbGxlY3Rpb24EAAAACmlzUmVhZE9ubHkQQXJyYXlMaXN0K19pdGVtcw9BcnJheUxpc3QrX3NpemUSQXJyYXlMaXN0K192ZXJzaW9uAAUAAAEICAIAAAAACQMAAAACAAAAAQAAABADAAAAAgAAAAkEAAAACQUAAAAMBgAAAHtNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcy5HcmFwaE9iamVjdCwgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFBAAAADJNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkVkZ2VQb2ludAIAAAAEZmxhZwVwb2ludAQEQE1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uTW9kZWxpbmcuRGlhZ3JhbXMuR3JhcGhPYmplY3QuVkdQb2ludFR5cGUGAAAAL01pY3Jvc29mdC5WaXN1YWxTdHVkaW8uTW9kZWxpbmcuRGlhZ3JhbXMuUG9pbnREAgAAAAIAAAAF+f///0BNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkdyYXBoT2JqZWN0LlZHUG9pbnRUeXBlAQAAAAd2YWx1ZV9fAAgGAAAAAAAAAAX4////L01pY3Jvc29mdC5WaXN1YWxTdHVkaW8uTW9kZWxpbmcuRGlhZ3JhbXMuUG9pbnREAgAAAAF4AXkAAAYGAgAAAAAAAAAAAP4/TH6x5NeJ+T8BBQAAAAQAAAAB9/////n///8AAAAAAfb////4////AAAAAAAA/j8AAAAAAAAKQAs=" />
+            <om:Property Name="ManuallyRouted" Value="False" />
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.SubjectHasPresentation" Id="75287319-f868-44e7-bcb1-71ea9014499a">
+                <om:Role Name="Presentation" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+                <om:Role Name="Subject" Id="99ce5ded-cd9a-4bf3-9af4-1bb009f0e7bd" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ConnectorHasDecorators" Id="60c8577a-f81c-44ae-999a-a47ee79012e2">
+                <om:Role Name="Parent" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+                <om:Role Name="Decorators" Id="91c523e0-6512-4562-a4ae-88b7170b28f2" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Diagrams.LinkConnectsToNode" Id="119512fc-dddd-4e10-8e73-db6f204a3896">
+                <om:Role Name="Link" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+                <om:Role Name="Nodes" Id="f6062bf8-6692-467a-98ad-63d53f56463d" />
+            </om:ElementLink>
+            <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Diagrams.LinkConnectsToNode" Id="b92182d3-c64d-4116-a155-d8ecfcd472ae">
+                <om:Role Name="Link" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+                <om:Role Name="Nodes" Id="43390ed4-a394-4c52-a650-0d5d80daee45" />
+            </om:ElementLink>
+            <om:ModelElement Type="Microsoft.VisualStudio.Modeling.Utilities.TextConnectorDecorator" Id="91c523e0-6512-4562-a4ae-88b7170b28f2" ParentLink="Microsoft.VisualStudio.Modeling.Diagrams.ParentShapeHasRelativeChildShapes">
+                <om:Property Name="Content" Value="" />
+                <om:Property Name="Position" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAHBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5VdGlsaXRpZXMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQEAAABETWljcm9zb2Z0LlZpc3VhbFN0dWRpby5Nb2RlbGluZy5VdGlsaXRpZXMuQ29ubmVjdG9yRGVjb3JhdG9yUG9zaXRpb24BAAAAB3ZhbHVlX18ACAIAAAADAAAACw==" />
+                <om:Property Name="Name" Value="Label" />
+                <om:Property Name="Visibility" Value="True" />
+                <om:Property Name="Offset" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAC9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlBvaW50RAIAAAABeAF5AAAGBgIAAAC4HoXrUbiuP7gehetRuK4/Cw==" />
+                <om:Property Name="Alignment" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADdNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkxhYmVsQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=" />
+                <om:Property Name="Placement" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADdNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLkxhYmVsUGxhY2VtZW50AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAs=" />
+                <om:Property Name="ManuallySized" Value="False" />
+                <om:Property Name="ManuallyPlaced" Value="False" />
+                <om:Property Name="Text" Value="Persons" />
+                <om:Property Name="IsExpanded" Value="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uQm9vbGVhbgEAAAAHbV92YWx1ZQABAQs=" />
+                <om:Property Name="AbsoluteBounds" Value="AAEAAAD/////AQAAAAAAAAAMAgAAAG9NaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLlNkay5EaWFncmFtcywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAADNNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLk1vZGVsaW5nLkRpYWdyYW1zLlJlY3RhbmdsZUQEAAAAAXgBeQV3aWR0aAZoZWlnaHQAAAAABgYGBgIAAAD2KFyPwvX+P4XrUWSJTAhAAAAAAMda3D8AAABAVYnDPws=" />
+                <om:ElementLink Type="Microsoft.VisualStudio.Modeling.Utilities.ConnectorHasDecorators" Id="60c8577a-f81c-44ae-999a-a47ee79012e2">
+                    <om:Role Name="Decorators" Id="91c523e0-6512-4562-a4ae-88b7170b28f2" />
+                    <om:Role Name="Parent" Id="e49dc6c4-cefe-4905-9185-0d71824b6760" />
+                </om:ElementLink>
+            </om:ModelElement>
+        </om:ModelElement>
+    </om:ModelElement>
+</om:MetaModel>

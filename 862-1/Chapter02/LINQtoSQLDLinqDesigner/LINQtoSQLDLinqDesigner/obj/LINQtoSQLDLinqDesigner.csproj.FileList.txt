@@ -1,0 +1,13 @@
+bin\Debug\LINQtoSQLDLinqDesigner.exe.config
+bin\Debug\LINQtoSQLDLinqDesigner.exe
+bin\Debug\LINQtoSQLDLinqDesigner.pdb
+bin\Debug\System.Data.DLinq.dll
+bin\Debug\System.Data.Extensions.dll
+bin\Debug\System.Query.dll
+bin\Debug\System.Xml.XLinq.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LINQtoSQLDLinqDesigner.Form1.resources
+obj\Debug\LINQtoSQLDLinqDesigner.Properties.Resources.resources
+obj\Debug\LINQtoSQLDLinqDesigner.csproj.GenerateResource.Cache
+obj\Debug\LINQtoSQLDLinqDesigner.exe
+obj\Debug\LINQtoSQLDLinqDesigner.pdb

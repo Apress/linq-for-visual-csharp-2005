@@ -1,0 +1,10 @@
+bin\Debug\LINQOverDataSet.exe.config
+bin\Debug\LINQOverDataSet.exe
+bin\Debug\LINQOverDataSet.pdb
+bin\Debug\System.Data.DLinq.dll
+bin\Debug\System.Data.Extensions.dll
+bin\Debug\System.Query.dll
+bin\Debug\System.Xml.XLinq.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LINQOverDataSet.exe
+obj\Debug\LINQOverDataSet.pdb
